@@ -3,7 +3,7 @@
 #
 #  calculator.py
 #  
-#  Copyright 2023 Mihajlo Bogdanović <mrmiha824@gmail.com>
+#  Copyright 2023 Mihajlo Bogdanović - Brok <mrmiha824@gmail.com>
 #  
 #  This program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -19,7 +19,7 @@
 #  along with this program; if not, write to the Free Software
 #  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 #  MA 02110-1301, USA.
-#  script for personal needs wrote Mihajlo Bogdanović Brok
+#  script for personal needs wrote Mihajlo Bogdanović - Brok
 #  web site www.paluba.info
 #  script name: calculator.py
 #  support, question, suggestions: <mrmiha824@gmail.com> or 
