@@ -22,8 +22,7 @@
 #  script for personal needs wrote Mihajlo Bogdanović - Brok
 #  web site www.paluba.info
 #  script name: calculator.py
-#  support, question, suggestions: <mrmiha824@gmail.com> or 
-#  <brok@paluba.info>
+#  support, question, suggestions: <mrmiha824@gmail.com> or <brok@paluba.info>
 #  Kraljevo, Serbia
 #  date: 16.05.2023.
 
