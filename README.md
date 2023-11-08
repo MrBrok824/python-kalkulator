@@ -1,8 +1,7 @@
 # broklab
-# I started learning the Python programming language in the old days.
-# These are simple Python scripts for beginners that I use to practice Python programming
-# With the Python programming language, when I master it better, 
-# I intend to include pygame in everything so that I can program with a 
-# graphical interface, sound, and image.
+# I began learning the Python programming language.
+# These are basic Python scripts for novices that I practice with.
+# As I improve my mastery of Python, my goal is to incorporate Pygame in all my programming endeavors
+# for a graphical interface, sound, and image capabilities.
            
        
