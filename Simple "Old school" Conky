@@ -1,11 +1,10 @@
-
 --[[
 # Simple "Old school" Cony 1.1
 # Author: Brok-Lab
 # Release date: 06.07.2023.
 # Tested on: Xubuntu - XFCE Desktop and Mate Ubuntu
 # Email: mrmiha824@gmail.com
-# Feel free to modity this script ;)
+# Feel free to modify this script ;)
 ]]
 
 
@@ -61,24 +60,24 @@ conky.config = {
 conky.text = [[
 
 
-${font} ${voffset -14}GNU/Linuks» $hr ${color}
+${font} ${voffset -14}GNU/Linux» $hr ${color}
 ${color7}${goto 35}OS: ${execi 86400 cat `ls -atr /etc/*-release | tail -2` | grep "PRETTY_NAME" | cut -d= -f2 |  sed 's/"//g'}${color}
 ${color7}${goto 35}Kernel: $kernel on $machine${color}
 ${color7}${goto 35}Uptime: $uptime_short${color}
 ${color7}${goto 35}Load: ${loadavg}${color}
 
 
-${color}${voffset -14} Sistem» $hr${color}
-${color1}${goto 35}Procesor: ${color}
+${color}${voffset -14} System Information» $hr${color}
+${color1}${goto 35}Processor: ${color}
 ${color3}${execi 1000 cat /proc/cpuinfo | grep 'model name' | sed -e 's/model name.*: //'| uniq}${color}
 
-${color1}Temperature korova procesora: ${color} 
+${color1}CPU Cores Temperatures: ${color} 
 ${color2}${goto 35}Jezgro 1   ===  ${execp sensors | grep 'Core 0' | cut -c14-22}C°
 ${color2}${goto 35}Jezgro 2   ===  ${execp sensors | grep 'Core 1' | cut -c14-22}C°
 ${color2}${goto 35}Jezgro 3   ===  ${execp sensors | grep 'Core 2' | cut -c14-22}C°
 ${color2}${goto 35}Jezgro 4   ===  ${execp sensors | grep 'Core 3' | cut -c14-22}C°
 
-${color1}Frekvencije niti procesora: ${color} 
+${color1}CPU Frequency Threads: ${color} 
 ${color3}${goto 35}Jezgro 1   ===    ${freq_g 0} GHz  ---  ${cpu cpu0}%${color} 
 ${color3}${goto 35}Jezgro 2   ===    ${freq_g 1} GHz  ---  ${cpu cpu1}%${color} 
 ${color3}${goto 35}Jezgro 3   ===    ${freq_g 2} GHz  ---  ${cpu cpu2}%${color} 
@@ -88,34 +87,33 @@ ${color3}${goto 35}Jezgro 6   ===    ${freq_g 5} GHz  ---  ${cpu cpu1}%${color}
 ${color3}${goto 35}Jezgro 7   ===    ${freq_g 6} GHz  ---  ${cpu cpu2}%${color} 
 ${color3}${goto 35}Jezgro 8   ===    ${freq_g 7} GHz  ---  ${cpu cpu3}%${color} 
 
-${color1}${goto 35}Grafička karta: ${color}
+${color1}${goto 35}Graphics Card: ${color}
 ${color7}${goto 35}Sapphire NITRO + RX 580 8GB SE ${color}
-${color1}Temperatura grafičke karte:${color} ===== ${color2}${execi 5 sensors | grep edge | cut -c 16-23}${alignr -13}
-${color1}${voffset 2}Zauzeće grafičke karte: ${color}${alignr} =====  ${color2}${exec grep -Po '\d+:\s\K(\d+)(?=.*\*$)' /sys/class/drm/card1/device/pp_dpm_sclk} MHz$color${font}
-${color1}Zauzeće VRAM grafičke:${color}  ===== ${color2}${exec numfmt --to=iec < /sys/class/drm/card1/device/mem_info_vram_used}${color}
+${color1}GPU Temperature:${color} ===== ${color2}${execi 5 sensors | grep edge | cut -c 16-23}${alignr -13}
+${color1}${voffset 2}Frequency GPU: ${color} ========== ${alignr}${color2}${exec grep -Po '\d+:\s\K(\d+)(?=.*\*$)' /sys/class/drm/card1/device/pp_dpm_sclk} MHz$color${font}
+${color1}GPU Uses VRM:${color}  ======== ${color2}${exec numfmt --to=iec < /sys/class/drm/card1/device/mem_info_vram_used}${color}
 
-
-${voffset -10}${color1}Zauzeće memorije» $hr${color}
+${voffset -10}${color1}RAM & SWAP Usages» $hr${color}
 ${color1}${goto 35}RAM:${color} ${color7}${execi 10 free --si -m|awk '/^Mem/{printf "%.2f",$3/1024}'}/$memmax ${execi 10 free --si -m|awk '/^Mem/{printf "%.1f%%", 80*$3/$2}'} \
 ${execibar 10 free --si -m|awk '/^Mem/{print 80*$3/$2}'}
 ${color1}${goto 35}SWAP:${color7}$swap/$swapmax $swapperc%${swapbar}${color}
                                               
-${font} ${voffset -10} Procesi» $hr${color}
-${color1}${goto 35}Zauzeće procesora: ${alignr}${color}
+${font} ${voffset -10}Top 5 Processes» $hr${color}
+${color1}${goto 35}CPU: ${alignr}${color}
 ${color4}${goto 35}${top name 1} ${top cpu 1}%${color} 
 ${color4}${goto 35}${top name 2} ${top cpu 2}%${color}  
 ${color4}${goto 35}${top name 3} ${top cpu 3}%${color}  
 ${color4}${goto 35}${top name 4} ${top cpu 4}%${color}  
 ${color4}${goto 35}${top name 5} ${top cpu 5}%${color}  
 
-${color1}${goto 35}Memorijsko zauzeće:${color}${alignr}
+${color1}${goto 35}RAM:${color}${alignr}
 ${color5}${goto 35}${top_mem name 1}${top_mem mem_res 1}${color}
 ${color5}${goto 35}${top_mem name 2}${top_mem mem_res 2}${color}
 ${color5}${goto 35}${top_mem name 3}${top_mem mem_res 3}${color}
 ${color5}${goto 35}${top_mem name 4}${top_mem mem_res 4}${color}
 ${color5}${goto 35}${top_mem name 5}${top_mem mem_res 5}${color}
 
-${font} Prostor» $hr${color}
+${font} Spaces To Hard Drive» $hr${color}
 ${color1}${goto 35}Sistem: ${color}${color7}${fs_size /} ${fs_free /} ${alignr}${color}${fs_bar 3,80 /}
 ${color1}${goto 35}Home: ${color}${color7}${fs_size /home/brok} ${fs_free /home/brok}${alignr} ${color}${fs_bar 3,80 /}
 ${color1}${goto 35}Windows: ${color}${color7}${fs_size /media/brok/Windows} ${fs_free /media/brok/Windows} ${alignr}${color}${fs_bar 3,80/}
