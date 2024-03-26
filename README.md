@@ -16,7 +16,7 @@ git clone https://github.com/MrBrok824/python-kalkulator.git
 ```
 cd python-kalkulator
 ```
-Pokrenite skriptu calculator.py kako biste pokrenuli kalkulator
+Pokrenite skript kalkulator.py
 
 ```
 python3 kalkulator.py
