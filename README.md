@@ -9,7 +9,7 @@ insralirati neophodnu zavinsost
 pip install tkinter
 ```
 ```
-git clone https://github.com/MrBrok824/kalkulator.git
+git clone https://github.com/MrBrok824/python-kalkulator.git
 ```
 ```
 cd kalkulator.py
