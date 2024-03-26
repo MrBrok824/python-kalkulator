@@ -1,6 +1,6 @@
 Jednostavan (ili običan) kalkulator
 
-- A calculator is language-independent; anyone can use it, regardless of the language. Mathematical operations such as +, -, /, and * are universal and understandable across all languages.
+- A calculator is language-independent (in Serbian language); anyone can use it, regardless of the language. Mathematical operations such as +, -, /, and * are universal and understandable across all languages. :-)
   
 - Ovaj kalkulator je napravljen koristeći Tkinter, modul za izradu grafičkog korisničkog interfejsa u Python-u. Omogućava osnovne matematičke operacije poput sabiranja, oduzimanja, množenja i deljenja.
 
