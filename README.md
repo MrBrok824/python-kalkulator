@@ -2,7 +2,7 @@ Jednostavan (ili običan) kalkulator
   
 - Ovaj kalkulator je napravljen koristeći Tkinter, modul za izradu grafičkog korisničkog interfejsa u Python-u. Omogućava osnovne matematičke operacije poput sabiranja, oduzimanja, množenja i deljenja.
 
--Kao što se može videti kalkulator je na srpskom jeziku, bez obzira na jezik, može ga koristiti bilo ko, matematičke operacije +. -. / i * su na svim jezicima iste i svima razumljive. 
+- Kao što se može videti kalkulator je na srpskom jeziku, bez obzira na jezik, može ga koristiti bilo ko, matematičke operacije +. -. / i * su na svim jezicima iste i svima razumljive. 
 
 - Uputstvo:
   
