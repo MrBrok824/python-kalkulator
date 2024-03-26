@@ -20,9 +20,6 @@ Pokrenite skriptu calculator.py kako biste pokrenuli kalkulator
 python3 kalkulator.py
 ```
 
--Unesite brojeve i koristite operatore kako biste izvršili željene matematičke operacije.
-Kliknite na dugme "=" da biste dobili rezultat.
-
 -Funkcionalnosti
-Unos brojeva: Korisnik može da unese brojeve koristeći tastaturu.
+Unos brojeva: Korisnik može da unese brojeve koristeći tastaturu ili kursor miša.
 Matematički operatori: Kalkulator podržava osnovne matematičke operacije: sabiranje, oduzimanje, množenje i deljenje.
