@@ -25,6 +25,7 @@ python3 kalkulator.py
 ```
 
 - Funkcionalnosti
+
 Unos brojeva: Korisnik može da unese brojeve koristeći tastaturu ili kursor miša.
 Matematički operatori: Kalkulator podržava osnovne matematičke operacije: sabiranje, oduzimanje, množenje i deljenje.
 
