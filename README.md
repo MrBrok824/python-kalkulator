@@ -12,7 +12,7 @@ pip install tkinter
 git clone https://github.com/MrBrok824/broklab.git
 ```
 ```
-cd
+cd kalkulator.py
 ```
 Pokrenite skriptu calculator.py kako biste pokrenuli kalkulator
 
