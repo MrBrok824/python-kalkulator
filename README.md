@@ -9,7 +9,7 @@ insralirati neophodnu zavinsost
 pip install tkinter
 ```
 ```
-git clone https://github.com/MrBrok824/broklab.git
+git clone https://github.com/MrBrok824/kalkulator.git
 ```
 ```
 cd kalkulator.py
@@ -17,7 +17,7 @@ cd kalkulator.py
 Pokrenite skriptu calculator.py kako biste pokrenuli kalkulator
 
 ```
-python3 calculate.py
+python3 kalkulator.py
 ```
 
 -Unesite brojeve i koristite operatore kako biste izvršili željene matematičke operacije.
