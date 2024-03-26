@@ -1,4 +1,4 @@
-Jednostavan (ili Običan) Kalkulator
+Jednostavan (ili običan) Kalkulator
   
 -Ovaj kalkulator je napravljen koristeći Tkinter, modul za izradu grafičkog korisničkog interfejsa u Python-u. Omogućava osnovne matematičke operacije poput sabiranja, oduzimanja, množenja i deljenja.
 
