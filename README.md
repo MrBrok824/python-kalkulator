@@ -25,3 +25,6 @@ Unos brojeva: Korisnik može da unese brojeve koristeći tastaturu ili kursor mi
 Matematički operatori: Kalkulator podržava osnovne matematičke operacije: sabiranje, oduzimanje, množenje i deljenje.
 
 # Običan kalkulator radi na Linuks i na Windows OS-u.
+
+![Python Sticker](https://files.paluba.info/brok/slike/2024-04-20_220913.jpg)
+
