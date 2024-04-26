@@ -26,6 +26,6 @@ Matematički operatori: Kalkulator podržava osnovne matematičke operacije: sab
 
 # Običan kalkulator radi na Linuks i na Windows OS-u.
 
-[![Python Sticker](https://files.paluba.info/brok/slike/2024-04-20_220913.jpg)](https://www.python.org/) [![GNU/Linux Sticker](https://files.paluba.info/brok/slike/sticer.jpg)](https://www.gnu.org/gnu/linux-and-gnu.html)
+[![GNU/Linux Sticker](https://files.paluba.info/brok/slike/sticer.jpg)](https://www.gnu.org/gnu/linux-and-gnu.html) [![Python Sticker](https://files.paluba.info/brok/slike/2024-04-20_220913.jpg)](https://www.python.org/) 
 
 
